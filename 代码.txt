@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/bootstrap.css"/>  
     <link rel="stylesheet" href="../css/mycss.css"/>  
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-1.11.1.min.js"></script>
 </head>
 <style>
 .one {
@@ -30,8 +32,8 @@ color: royalblue;
 padding-top:5px;
 display: inline-block;
 }
-ul{display: inline-block;}
-li{
+.one ul{display: inline-block;}
+.one li{
 
   display:inline-block; 
   font-size: 15px;
@@ -43,9 +45,11 @@ li{
 a:hover{
 text-decoration: none;
 }
-li a{
+.one li a{
     color: darkgray;
 }
+
+  
 .one2{
    
     display: inline-block;
@@ -66,7 +70,7 @@ li a{
     border-radius: 34px;}
     .two{
         width: 650px;
-        height: 600px;
+        height: 700px;
         border:  red 1px solid;
         margin-left: 100px;
     }  
@@ -83,6 +87,26 @@ li a{
     .two1-2{
         width: 650px;
         height: 50px;
+    }
+    .two1-2 .btn{
+        display: inline-block;
+       
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+            touch-action: manipulation;
+        cursor: pointer;
+       
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        margin-left: 15px;
+        width: 120px;
+       
     }
     .two1-1-1{
         width: 120px;
@@ -109,7 +133,7 @@ li a{
     font-size: 17px;
 }
 
-.btn {
+.one2 .btn {
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
@@ -128,30 +152,139 @@ li a{
             user-select: none;
     background-image: none;
     border: 1px solid transparent;
-    border-radius: 4px;
+    border-radius: 20px;
     margin-left: 15px;
-    width: 120px;
+    
   }
+  .an{width: 150px;
+      height:70px ;
+      float: right;
+    }
+    .an .glyphicon {
+        position: relative;
+        top: 10px;
+        display: inline-block;
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+    padding-left: 60px;}
   .two1-2 ul{
       display: inline-block;     
       position: relative;
-      right: 50px;
+     
   }
   .two1-2 ul li {
-      padding-left: 30px;
+     
       font-size: 8px;
+      list-style-type: none;
+      display: inline-block;
+      
+      
+      
   }
+ .two1-2 .glyphicon {
+    position: relative;
+   
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+  
   .two2{
       height: 50px;
       width: 650px;
-      background-color: darkgrey;
+      background-color:#fff;
       margin-top: 10px;
+      border: solid 1px rgb(148, 147, 143);
+      display: inline-block;
+  }
+  .two2-1{
+      width: 400px;
+      height: 48px;
+      float: left;
   }
   .two2 ul{
-      
+    position: relative;
+    padding-left: 0px;
+}
+  
+.two2 ul li {
+      padding-top: 15px;
+      font-size: 17px;
+list-style-type: none;
+      display: inline-block;
+      padding-left: 30px;
   }
+.qh{
+ height: 48px;
+ line-height: 48px;
+    display: inline-block;   
+    padding-left: 130px;
+    text-align: center;
 
+}
+.ny{
+    height: 410px;
+    width: 646px;
+    border: solid 1px black;
+    background-color: aliceblue;
+}
+.ny1{
+    height: 200px;
+    width: 630px;
+   margin-left:  7px;
+   border-top-style:none;
+   border-right-style:none;
+   border-bottom-style:solid;
+   border-left-style:none;
 
+}
+.ny1-1{
+    height: 50xp;
+    width: 630px;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.ny1-2{
+    height: 40px;
+    width: 570px;
+    padding-left: 12px;
+    margin-top: 10px;
+}
+.ny1-2.tx {
+    height: 30px;
+    width: 30px;  
+   
+  
+}
+.mz{margin-left: 10px;
+font-size:15px;}
+.wz1{
+    padding-left: 12px;
+    font-size: 15px;
+
+}
+.zt{
+    
+}
+.zt .btn {
+    display: inline-block;
+   line-height: ;
+   
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+   
+    cursor: pointer;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+width: 60px;}
 </style>
 <body>
     <div class="one">
@@ -171,6 +304,9 @@ li a{
         </div>
        </form>
        </div>
+     <div class="an"><span class="glyphicon glyphicon-off" style="font-size:25px; padding-top:15px"></span></div> 
+     <div class="an"><span class="glyphicon glyphicon-bell" style="font-size:25px; padding-top:15px"></span> </div>
+     
     </div>
     <div class="two">
         <div class="two1">
@@ -183,19 +319,42 @@ li a{
             </div>
             <div class="two1-2">
                 <button type="submit" class="btn btn-info btn-lg">关注话题</button>
-                <ul>
-                    <li>管理</li>
-                    <li>日记</li>
-                    <li>分享</li>
-                </ul>
-            </div>
+                
+                    <ul>
+                    <li><a href="#"><span class="glyphicon glyphicon-off" > </span> 管理</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-off" > </span> 管理</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-off" > </span> 管理</a></li>
+                     </ul>
+                
+              
         </div>
         <div class="two2">
+          <div class="two2-1">
             <ul>
-                <li>讨论</li>
-                <li>精华</li>
-                <li>求讨论</li>
+                <li class="active"><a href="#">讨论</a></li>
+                <li><a href="#">精华</a></li>
+                <li><a href="#">求评论</a></li>
+               
             </ul>
+           </div>
+            <div class="qh">切换热门为顺序</div>
+        </div>
+        <div class="ny">
+            <div class="ny1">
+                <div class="ny1-1">知乎网页版想法、违规查询入口</div>
+                <div class="ny1-2">
+                    <div class="tx"><img src="../image/v2-26e2f5c0e826b2fe09c0f0cfce10f550_xs.jpg" width="20px" height="20px">     <span class="mz"><b>坤封神榜</b></span></div>
+                </div>
+               <div class="wz1">今天突然心血来潮，想写写想法，结果找了半天找不到，百度了一下，还好比较靠前的回答都很靠谱，马上就找到了，还是写一下</div>
+               <div class="zt"><button type="button" class="btn btn-default btn-xs">
+                     <span class="glyphicon glyphicon-chevron-up">赞同</span>
+                    </button>
+                </div>
+                <div class="do"><button type="button" class="btn btn-default btn-xs">
+                        <span class="glyphicon glyphicon-chevron-down"></span>
+                       </button>
+               </div>
+            </div>
         </div>
     </div>
     <div class="three"></div>
