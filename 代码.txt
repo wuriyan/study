@@ -70,9 +70,10 @@ text-decoration: none;
     border-radius: 34px;}
     .two{
         width: 650px;
-        height: 700px;
-        border:  red 1px solid;
+        height: 900px;
+       display: inline-block;
         margin-left: 100px;
+        margin-top: 10px;
     }  
     .two1{
         width: 650px;
@@ -172,10 +173,11 @@ text-decoration: none;
   .two1-2 ul{
       display: inline-block;     
       position: relative;
+      right: 20px;
      
   }
   .two1-2 ul li {
-     
+     padding-right: 20px;
       font-size: 8px;
       list-style-type: none;
       display: inline-block;
@@ -227,19 +229,52 @@ list-style-type: none;
 
 }
 .ny{
-    height: 410px;
-    width: 646px;
+    height: 610px;
+    width: 650px;
     border: solid 1px black;
     background-color: aliceblue;
+  
 }
-.ny1{
-    height: 200px;
+.touw{
+    height: 100px;
     width: 630px;
    margin-left:  7px;
    border-top-style:none;
    border-right-style:none;
    border-bottom-style:solid;
    border-left-style:none;
+}
+.touw1{
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 12px;
+
+}
+.btn3 {
+    margin-left: 12px;
+     display: inline-block;
+     font-size: 14px;
+     text-align: center;
+     white-space: nowrap;
+     vertical-align: middle;   
+     cursor: pointer;
+     border: 1px solid transparent;
+     border-radius: 4px;
+     width: 80px;
+ height: 30px;
+background-color: blue;}
+.ny1{
+    height:140px;
+    width: 630px;
+   margin-left:  7px;
+   border-top-style:none;
+   border-right-style:none;
+   border-bottom-style:solid;
+   border-left-style:none;
+   
+  
 
 }
 .ny1-1{
@@ -248,43 +283,194 @@ list-style-type: none;
     font-size: 18px;
     padding-top: 15px;
     padding-left: 10px;
+    
 }
 .ny1-2{
     height: 40px;
     width: 570px;
     padding-left: 12px;
     margin-top: 10px;
+    
 }
 .ny1-2.tx {
     height: 30px;
     width: 30px;  
+    
    
   
 }
 .mz{margin-left: 10px;
 font-size:15px;}
 .wz1{
+    width: 630px;
+   height: 50px;
     padding-left: 12px;
     font-size: 15px;
+   
 
 }
-.zt{
+.dz{
+    width: 600px;
+    height: 40px;
+    margin-left: 12px;
+    padding-top: 8px;  
     
+    margin-top: 50px;
+
 }
-.zt .btn {
+.zt{width: 100px;
+    height: 30px; 
+    margin-bottom: 4px;
+    padding-left: 12px;
+   }
+.btn2 {
+   margin-left: 12px;
     display: inline-block;
-   line-height: ;
-   
     font-size: 14px;
     text-align: center;
     white-space: nowrap;
-    vertical-align: middle;
-   
+    vertical-align: middle;   
     cursor: pointer;
-
     border: 1px solid transparent;
     border-radius: 4px;
-width: 60px;}
+    width: 60px;
+height: 30px;
+background-color: rgb(197, 193, 193);}
+    .btn1 {
+        
+        display: inline-block;
+        font-size: 14px;
+        text-align: center;        
+        cursor: pointer;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        width: 30px;
+    height: 30px;
+    background-color: rgb(197, 193, 193);
+}
+.pl {
+    width: 400px;
+    height: 20px;
+    position: relative; 
+     display: inline-block;
+  
+    
+
+
+}
+
+.pl ul li {
+  
+    font-size: 8px;
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 30px;
+    color: lightgray;
+
+    
+    
+    
+}
+.pl .glyphicon {
+ 
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+.three{
+    height: 550px;
+    width: 350px;
+    
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.three1{
+width: 300px;
+height: 100px;
+border: solid #ccc 1px ;
+}
+.three1-1{
+    width: 140px;
+    height: 80px;
+    margin-top: 10px;
+    border-top-style:none;
+   border-right-style:solid;
+   border-bottom-style:none;
+   border-left-style:none;
+   display: inline-block;
+}
+.three1-2{
+    width: 140px;
+    height: 80px;
+    display: inline-block;
+   
+}
+.gzz{
+width: 140px;
+height: 40px;
+padding-top: 20px;
+text-align: center;
+color: #ccc;
+}
+.sz{
+    width: 140px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+font-size: 20px;
+}
+.three2{
+    height: 135px;
+    width: 300px;
+    border: #ccc solid 1px;
+    margin-top: 10px;
+
+}
+.three2-1{
+    height: 50px;
+    width: 300px;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.three2-2{
+    height: 50px;
+    width: 300px;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: gainsboro;
+}
+.btn4 {
+        
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;        
+    cursor: pointer;
+    background-color:cyan; 
+    border-radius: 30px;
+    width: 130px;
+    line-height: 17px;
+height: 30px;
+margin-left: 15px;
+}
+.zh{
+    width: 320px;
+    height: 350px;
+    left: 20px;
+
+}
+.zh li{
+    list-style-type: none;
+    padding-top: 7px;
+    position: relative;
+    right: 30px;
+
+}
 </style>
 <body>
     <div class="one">
@@ -321,9 +507,9 @@ width: 60px;}
                 <button type="submit" class="btn btn-info btn-lg">关注话题</button>
                 
                     <ul>
-                    <li><a href="#"><span class="glyphicon glyphicon-off" > </span> 管理</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-off" > </span> 管理</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-off" > </span> 管理</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-cog" > </span> 管理</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-list" > </span> 日志</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-send" > </span> 分享</a></li>
                      </ul>
                 
               
@@ -340,24 +526,114 @@ width: 60px;}
             <div class="qh">切换热门为顺序</div>
         </div>
         <div class="ny">
-            <div class="ny1">
-                <div class="ny1-1">知乎网页版想法、违规查询入口</div>
+            
+            <div class="ny1-1">知乎网页版想法、违规查询入口</div>
+            <div class="touw">
+                <div class="touw1"><b>知乎iPad版本同步失败是为什么？</b></div>
+                <button type="button" class="btn3 btn-default btn-xs">
+                    <span class="glyphicon glyphicon-pencil">写评论</span>
+                </button>
+            </div>
+            <div class="ny1">  
                 <div class="ny1-2">
-                    <div class="tx"><img src="../image/v2-26e2f5c0e826b2fe09c0f0cfce10f550_xs.jpg" width="20px" height="20px">     <span class="mz"><b>坤封神榜</b></span></div>
+                    <div class="tx"><img src="../image/v2-26e2f5c0e826b2fe09c0f0cfce10f550_xs.jpg" width="20px" height="20px">  <span class="mz"><b>坤封神榜</b></span></div>
                 </div>
                <div class="wz1">今天突然心血来潮，想写写想法，结果找了半天找不到，百度了一下，还好比较靠前的回答都很靠谱，马上就找到了，还是写一下</div>
-               <div class="zt"><button type="button" class="btn btn-default btn-xs">
+            
+                  <button type="button" class="btn2 btn-default btn-xs">
                      <span class="glyphicon glyphicon-chevron-up">赞同</span>
+                    </button> 
+                    <button type="button" class="btn1 btn-default btn-xs">
+                         <span class="glyphicon glyphicon-chevron-down"></span>    
                     </button>
+               <div class="pl">
+                     <ul>
+                        <li><a href="#"><span class="glyphicon glyphicon-pencil" > </span> 评论</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-send" > </span> 分享</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-heart" > </span> 喜欢</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-star" > </span> 收藏</a></li>
+                        <li><a href="#"><span> </span> ...</a></li>
+                     </ul>
+                </div>    
+            </div>
+            <div class="ny1">  
+                <div class="ny1-2">
+                    <div class="tx"><img src="../image/v2-26e2f5c0e826b2fe09c0f0cfce10f550_xs.jpg" width="20px" height="20px">  <span class="mz"><b>坤封神榜</b></span></div>
                 </div>
-                <div class="do"><button type="button" class="btn btn-default btn-xs">
-                        <span class="glyphicon glyphicon-chevron-down"></span>
-                       </button>
-               </div>
+               <div class="wz1">今天突然心血来潮，想写写想法，结果找了半天找不到，百度了一下，还好比较靠前的回答都很靠谱，马上就找到了，还是写一下</div>
+            
+                  <button type="button" class="btn2 btn-default btn-xs">
+                     <span class="glyphicon glyphicon-chevron-up">赞同</span>
+                    </button> 
+                    <button type="button" class="btn1 btn-default btn-xs">
+                         <span class="glyphicon glyphicon-chevron-down"></span>    
+                    </button>
+               <div class="pl">
+                     <ul>
+                        <li><a href="#"><span class="glyphicon glyphicon-pencil" > </span> 评论</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-send" > </span> 分享</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-heart" > </span> 喜欢</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-star" > </span> 收藏</a></li>
+                        <li><a href="#"><span> </span> ...</a></li>
+                     </ul>
+                </div>    
+            </div>
+
+            <div class="ny1">  
+                <div class="ny1-2">
+                    <div class="tx"><img src="../image/v2-26e2f5c0e826b2fe09c0f0cfce10f550_xs.jpg" width="20px" height="20px">  <span class="mz"><b>坤封神榜</b></span></div>
+                </div>
+               <div class="wz1">今天突然心血来潮，想写写想法，结果找了半天找不到，百度了一下，还好比较靠前的回答都很靠谱，马上就找到了，还是写一下</div>
+            
+                  <button type="button" class="btn2 btn-default btn-xs">
+                     <span class="glyphicon glyphicon-chevron-up">赞同</span>
+                    </button> 
+                    <button type="button" class="btn1 btn-default btn-xs">
+                         <span class="glyphicon glyphicon-chevron-down"></span>    
+                    </button>
+               <div class="pl">
+                     <ul>
+                        <li><a href="#"><span class="glyphicon glyphicon-pencil" > </span> 评论</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-send" > </span> 分享</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-heart" > </span> 喜欢</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-star" > </span> 收藏</a></li>
+                        <li><a href="#"><span> </span> ...</a></li>
+                     </ul>
+                </div>    
             </div>
         </div>
     </div>
-    <div class="three"></div>
+</div>
+<div class="three">
+    <div class="three1">
+        <div class="three1-1">
+            <div class="gzz">关注者</div>
+            <div class="sz"><b>1112</b></div>
+        </div>
+        <div class="three1-2">
+            <div class="gzz">问题数</div>
+            <div class="sz"><b>43</b></div>
+        </div>
+    </div>
+    <div class="three2">
+        <div class="three2-1"><b>父话题</b></div>
+        <button type="button" class="btn4 btn-default btn-sm">「未归类」话题</button>
+        <div class="three2-2">查看全部话题结构</div>
+    </div>
+    <ul class="zh">
+        <li>刘看山知乎指南知乎协议知乎隐私保护指引</li>
+        <li>应用工作申请开通知乎机构号</li>
+        <li>侵权举报网上有害信息举报专区</li>
+        <li>京 ICP 证 110745 号</li>
+        <li>京 ICP 备 13052560 号 - 1</li>
+        <li>互联网药品信息服务资格证书</li>
+        <li>（京）- 非经营性 - 2017 - 0067</li>
+        <li>违法和不良信息举报：010-82716601</li>
+        <li>儿童色情信息举报专区</li>
+        <li>证照中心Investor Relations</li>
+    </ul>
+</div>
+  
   
 </body>
 </html>
